@@ -1,0 +1,32 @@
+.photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 50px;
+}
+
+.hone{
+    font-size: 55px;
+    font-family: 'Oswald display';
+    text-align: center;
+}
+.photos img {    
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.photos img:hover {    
+    filter: grayscale(0%);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.gallery {
+    margin-bottom: 50px;
+}
